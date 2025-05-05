@@ -25,7 +25,7 @@ shapes = {
     # 'rect': (64, 64, 80, 70, 2),
 }
 
-grid = np.load('../map/map.npy')
+grid = np.load('assignment-5-rrt-satvikmetla/map/map.npy')
 grid = draw_shapes_cv2(grid, shapes)
 display_grid(grid)
 # save the new grid for development purposes

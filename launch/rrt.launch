@@ -1,0 +1,6 @@
+<launch>
+  <include file="$(find turtlebot3_gazebo)/launch/turtlebot3_stage_4.launch"/>
+  <rosparam command="load" file="$(find rrt)/config/params.yaml"/>
+  
+  <node pkg = "rrt"  type = "navigation.py"  name = "bot_navigation"  output = "screen"/>
+</launch>

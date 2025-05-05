@@ -1,2 +1,2 @@
-grid: map.npy
+grid: /home/cse4568/catkin_ws/src/assignment-5-rrt-satvikmetla/map/map.npy
 goal_position: [2,-1.5]
